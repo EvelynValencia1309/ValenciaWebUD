@@ -1,0 +1,95 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor Principal */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #1a5276;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Estilo de Formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="number"], 
+input[type="text"], 
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdfe3;
+    border-radius: 6px;
+    box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Botón de Acción */
+.btn-calculate {
+    width: 100%;
+    background-color: #28b463;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-calculate:hover {
+    background-color: #239b56;
+}
+
+/* Tabla de Resultados */
+.results-card {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eaf2f8;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+}
+
+.results-card p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.value-highlight {
+    font-weight: bold;
+    color: #1a5276;
+    float: right;
+}
