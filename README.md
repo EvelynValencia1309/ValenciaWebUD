@@ -1,1 +1,1 @@
-dr_origen
+dr_diagrama de clases
