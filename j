@@ -1,3 +1,0 @@
-ghjkiu
-nujn
-huhnu
